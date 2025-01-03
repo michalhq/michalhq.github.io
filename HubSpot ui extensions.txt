@@ -1,0 +1,31 @@
+Project Title: DSV UI Extension
+
+Overview:
+
+This project showcases a UI extension designed to streamline shipment tracking within HubSpot CRM. This extension integrates with a DSV API, providing a centralized view of all DSV shipments associated with the currently open project. This eliminates the need for users to contact the shipping department to fetch shipment IDs and subsequently navigate to external systems to obtain required information, saving time and improving workflow efficiency.
+
+Key Features:
+
+Intuitive Interface: The extension presents a clear and concise display of all DSV shipments related to the active project within the platform's user interface.
+Real-time Shipment Data: The extension connects to the DSV API to fetch real-time shipment information, ensuring users have access to the most up-to-date status.
+Project-Specific Filtering: Shipments displayed are automatically filtered to show only those associated with the currently open project, providing relevant context and avoiding information overload.
+
+Technical Details:
+
+Frontend: Developed using React and JavaScript.
+Backend (if applicable): Utilized serverless functions to handle API requests and data processing.
+API Integration: Implemented using RESTful API calls with OAuth 2.0 for authentication.
+UI Framework: HubSpot UI-Extensions based on React.
+
+Visuals:
+
+Screenshots: Include screenshots of the extension within the platform's interface, showcasing the display of DSV shipments. Highlight how it integrates within the existing UI.
+Demo Video (Recommended): A short video demonstrating the extension in action—opening a project and seeing the associated shipments populate—would be very effective.
+Interactive Prototype (If possible): An interactive prototype or a live demo would provide the best user experience for potential employers.
+
+Challenges and Solutions:
+
+Challenge: Handling potential API latency and ensuring a responsive user experience.
+Solution: Implemented loading indicators and optimized data fetching to minimize perceived delays.
+Challenge: Displaying large numbers of shipments efficiently within the UI.
+Solution: Implemented pagination to manage large datasets and maintain a smooth user experience.
